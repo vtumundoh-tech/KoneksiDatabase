@@ -211,6 +211,12 @@ namespace KoneksiDatabase
             }
         }
 
+        private void btnCetak_Click(object sender, EventArgs e)
+        {
+            FrmPengguna frmPengguna = new FrmPengguna();
+            frmPengguna.Show();
+        }
+
         private void btnSave_Click(object sender, EventArgs e)
         {
             try

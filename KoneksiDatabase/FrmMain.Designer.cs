@@ -45,6 +45,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnCetak = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -202,11 +203,22 @@
             this.label1.TabIndex = 18;
             this.label1.Text = "ID Pengguna";
             // 
+            // btnCetak
+            // 
+            this.btnCetak.Location = new System.Drawing.Point(529, 188);
+            this.btnCetak.Name = "btnCetak";
+            this.btnCetak.Size = new System.Drawing.Size(75, 23);
+            this.btnCetak.TabIndex = 35;
+            this.btnCetak.Text = "Cetak";
+            this.btnCetak.UseVisualStyleBackColor = true;
+            this.btnCetak.Click += new System.EventHandler(this.btnCetak_Click);
+            // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(705, 598);
+            this.Controls.Add(this.btnCetak);
             this.Controls.Add(this.CBLevel);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnLogout);
@@ -253,5 +265,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnCetak;
     }
 }
