@@ -182,7 +182,7 @@ namespace KoneksiDatabase
                 if (txtPassword.Text != "" && txtNamaPengguna.Text != "" && txtUsername.Text != "" && txtID.Text != "")
                 {
 
-                    query = string.Format("update tbl_pengguna set password = '{0}', nama_pengguna = '{1}', level = '{2}' where id_pengguna = '{3}'", txtPassword.Text, txtNama.Text, CBLevel.Text, txtID.Text);
+                    query = string.Format("update tbl_pengguna set password = '{0}', nama_pengguna = '{1}', level = '{2}' where id_pengguna = '{3}'", txtPassword.Text, txtNamaPengguna.Text, CBLevel.Text, txtID.Text);
 
 
                     koneksi.Open();
